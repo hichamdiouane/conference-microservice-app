@@ -16,6 +16,5 @@ public class Review {
     private Date date;
     private int note;
     @ManyToOne
-    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private Conference conference;
 }
